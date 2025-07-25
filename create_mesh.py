@@ -1,5 +1,6 @@
-import trimesh
 import argparse
+import trimesh
+from trimesh.visual import TextureVisuals
 
 def get_parser():
     parser = argparse.ArgumentParser()
